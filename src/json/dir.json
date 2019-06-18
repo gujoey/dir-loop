@@ -1,0 +1,31 @@
+[
+    {
+        "directory":{
+            "id": 1, 
+            "dirName": "dir 1", 
+            "content": {
+                "files":[{"file":1}, {"file":2}, {"file":3}],
+                "directories":[]
+            }
+        }
+    },
+    {
+        "directory":{
+            "id": 2, 
+            "dirName": "dir 2", 
+            "content": {
+                "files":[{"file":4}, {"file":5}, {"file":6}],
+                "directories":[{
+                    "directory":{
+                        "id": 1, 
+                        "dirName": "dir 1", 
+                        "content": {
+                            "files":[{"file":7}, {"file":8}, {"file":9}],
+                            "directories":[]
+                        }
+                    }
+                }]
+            }
+        }
+    }
+]
