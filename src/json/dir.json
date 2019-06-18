@@ -5,7 +5,16 @@
             "dirName": "dir 1", 
             "content": {
                 "files":[{"file":1}, {"file":2}, {"file":3}],
-                "directories":[]
+                "directories":[{
+                    "directory":{
+                        "id": 1, 
+                        "dirName": "dir 1", 
+                        "content": {
+                            "files":[{"file":13}, {"file":14}, {"file":15}],
+                            "directories":[]
+                        }
+                    }
+                }]
             }
         }
     },
@@ -21,7 +30,16 @@
                         "dirName": "dir 1", 
                         "content": {
                             "files":[{"file":7}, {"file":8}, {"file":9}],
-                            "directories":[]
+                            "directories":[{
+                                "directory":{
+                                    "id": 1, 
+                                    "dirName": "dir 1", 
+                                    "content": {
+                                        "files":[{"file":10}, {"file":11}, {"file":12}],
+                                        "directories":[]
+                                    }
+                                }
+                            }]
                         }
                     }
                 }]
